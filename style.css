@@ -1,0 +1,51 @@
+#full-page {
+    color: white;
+    background: blueviolet;
+    /* padding: 15px; */
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    padding: 2rem;
+}
+
+legend {
+    font-size: 3rem
+}
+
+label {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    font-stretch: semi-expanded;
+}
+
+label:after {
+    content: ": "
+}
+
+textarea {
+    max-height: auto;
+    min-height: 3rem;
+    width: 25rem;
+
+}
+
+#content {
+    padding: 1rem;
+    margin: 0.2rem;
+    display: inline-block;
+
+}
+
+button {
+    width: 7em;
+    height: 2rem;
+    font-size: medium;
+    font-weight: 200;
+    color: blueviolet;
+    background-color: beige;
+    border-style: none;
+    border-radius: 1rem;
+    cursor: grab;
+}
